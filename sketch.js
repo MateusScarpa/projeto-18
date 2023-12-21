@@ -60,7 +60,6 @@ function draw() {
       fruitGroup.destroyEach();
       knifeSwooshSound.play();
       score = score + 2
-      fruit.velocityX=-(8+(score/4));
     
     }
     else
